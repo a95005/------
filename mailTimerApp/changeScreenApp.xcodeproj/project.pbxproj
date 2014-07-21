@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E4FF9E1193F64B80043A038 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4FF9E0193F64B80043A038 /* MessageUI.framework */; };
+		5E50B9E61902991200DE5E54 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50B9E51902991200DE5E54 /* TimeViewController.m */; };
+		5E9AED0518EFF5B7000B359B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9AED0418EFF5B7000B359B /* UIKit.framework */; };
+		5E9AED0718EFF5B7000B359B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9AED0618EFF5B7000B359B /* Foundation.framework */; };
+		5E9AED0918EFF5B7000B359B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9AED0818EFF5B7000B359B /* CoreGraphics.framework */; };
+		5E9AED0F18EFF5B7000B359B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AED0D18EFF5B7000B359B /* InfoPlist.strings */; };
+		5E9AED1118EFF5B7000B359B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AED1018EFF5B7000B359B /* main.m */; };
+		5E9AED1518EFF5B7000B359B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AED1418EFF5B7000B359B /* AppDelegate.m */; };
+		5E9AED1718EFF5B7000B359B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AED1618EFF5B7000B359B /* Default.png */; };
+		5E9AED1918EFF5B7000B359B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AED1818EFF5B7000B359B /* Default@2x.png */; };
+		5E9AED1B18EFF5B7000B359B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AED1A18EFF5B7000B359B /* Default-568h@2x.png */; };
+		5E9AED1E18EFF5B7000B359B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AED1C18EFF5B7000B359B /* MainStoryboard.storyboard */; };
+		5E9AED2118EFF5B7000B359B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AED2018EFF5B7000B359B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E4FF9E0193F64B80043A038 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5E50B9E41902991200DE5E54 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeViewController.h; path = ../TimeViewController.h; sourceTree = "<group>"; };
+		5E50B9E51902991200DE5E54 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeViewController.m; path = ../TimeViewController.m; sourceTree = "<group>"; };
+		5E9AED0018EFF5B7000B359B /* changeScreenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeScreenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9AED0418EFF5B7000B359B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E9AED0618EFF5B7000B359B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E9AED0818EFF5B7000B359B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E9AED0C18EFF5B7000B359B /* changeScreenApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "changeScreenApp-Info.plist"; sourceTree = "<group>"; };
+		5E9AED0E18EFF5B7000B359B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E9AED1018EFF5B7000B359B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E9AED1218EFF5B7000B359B /* changeScreenApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "changeScreenApp-Prefix.pch"; sourceTree = "<group>"; };
+		5E9AED1318EFF5B7000B359B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E9AED1418EFF5B7000B359B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E9AED1618EFF5B7000B359B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E9AED1818EFF5B7000B359B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E9AED1A18EFF5B7000B359B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E9AED1D18EFF5B7000B359B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5E9AED1F18EFF5B7000B359B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E9AED2018EFF5B7000B359B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9AECFD18EFF5B7000B359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4FF9E1193F64B80043A038 /* MessageUI.framework in Frameworks */,
+				5E9AED0518EFF5B7000B359B /* UIKit.framework in Frameworks */,
+				5E9AED0718EFF5B7000B359B /* Foundation.framework in Frameworks */,
+				5E9AED0918EFF5B7000B359B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E9AECF518EFF5B7000B359B = {
+			isa = PBXGroup;
+			children = (
+				5E9AED0A18EFF5B7000B359B /* changeScreenApp */,
+				5E9AED0318EFF5B7000B359B /* Frameworks */,
+				5E9AED0118EFF5B7000B359B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9AED0118EFF5B7000B359B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9AED0018EFF5B7000B359B /* changeScreenApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9AED0318EFF5B7000B359B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4FF9E0193F64B80043A038 /* MessageUI.framework */,
+				5E9AED0418EFF5B7000B359B /* UIKit.framework */,
+				5E9AED0618EFF5B7000B359B /* Foundation.framework */,
+				5E9AED0818EFF5B7000B359B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E9AED0A18EFF5B7000B359B /* changeScreenApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E9AED1318EFF5B7000B359B /* AppDelegate.h */,
+				5E9AED1418EFF5B7000B359B /* AppDelegate.m */,
+				5E9AED1C18EFF5B7000B359B /* MainStoryboard.storyboard */,
+				5E9AED1F18EFF5B7000B359B /* ViewController.h */,
+				5E9AED2018EFF5B7000B359B /* ViewController.m */,
+				5E50B9E41902991200DE5E54 /* TimeViewController.h */,
+				5E50B9E51902991200DE5E54 /* TimeViewController.m */,
+				5E9AED0B18EFF5B7000B359B /* Supporting Files */,
+			);
+			name = changeScreenApp;
+			path = mailTimerApp;
+			sourceTree = "<group>";
+		};
+		5E9AED0B18EFF5B7000B359B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9AED0C18EFF5B7000B359B /* changeScreenApp-Info.plist */,
+				5E9AED0D18EFF5B7000B359B /* InfoPlist.strings */,
+				5E9AED1018EFF5B7000B359B /* main.m */,
+				5E9AED1218EFF5B7000B359B /* changeScreenApp-Prefix.pch */,
+				5E9AED1618EFF5B7000B359B /* Default.png */,
+				5E9AED1818EFF5B7000B359B /* Default@2x.png */,
+				5E9AED1A18EFF5B7000B359B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9AECFF18EFF5B7000B359B /* MailTimerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9AED2418EFF5B7000B359B /* Build configuration list for PBXNativeTarget "MailTimerApp" */;
+			buildPhases = (
+				5E9AECFC18EFF5B7000B359B /* Sources */,
+				5E9AECFD18EFF5B7000B359B /* Frameworks */,
+				5E9AECFE18EFF5B7000B359B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailTimerApp;
+			productName = mailTimerApp;
+			productReference = 5E9AED0018EFF5B7000B359B /* changeScreenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9AECF718EFF5B7000B359B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = atp;
+			};
+			buildConfigurationList = 5E9AECFA18EFF5B7000B359B /* Build configuration list for PBXProject "changeScreenApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E9AECF518EFF5B7000B359B;
+			productRefGroup = 5E9AED0118EFF5B7000B359B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9AECFF18EFF5B7000B359B /* MailTimerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E9AECFE18EFF5B7000B359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9AED0F18EFF5B7000B359B /* InfoPlist.strings in Resources */,
+				5E9AED1718EFF5B7000B359B /* Default.png in Resources */,
+				5E9AED1918EFF5B7000B359B /* Default@2x.png in Resources */,
+				5E9AED1B18EFF5B7000B359B /* Default-568h@2x.png in Resources */,
+				5E9AED1E18EFF5B7000B359B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9AECFC18EFF5B7000B359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9AED1118EFF5B7000B359B /* main.m in Sources */,
+				5E9AED1518EFF5B7000B359B /* AppDelegate.m in Sources */,
+				5E9AED2118EFF5B7000B359B /* ViewController.m in Sources */,
+				5E50B9E61902991200DE5E54 /* TimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E9AED0D18EFF5B7000B359B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9AED0E18EFF5B7000B359B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E9AED1C18EFF5B7000B359B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9AED1D18EFF5B7000B359B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E9AED2218EFF5B7000B359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E9AED2318EFF5B7000B359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9AED2518EFF5B7000B359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mailTimerApp/changeScreenApp-Prefix.pch";
+				INFOPLIST_FILE = "mailTimerApp/changeScreenApp-Info.plist";
+				PRODUCT_NAME = changeScreenApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E9AED2618EFF5B7000B359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mailTimerApp/changeScreenApp-Prefix.pch";
+				INFOPLIST_FILE = "mailTimerApp/changeScreenApp-Info.plist";
+				PRODUCT_NAME = changeScreenApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9AECFA18EFF5B7000B359B /* Build configuration list for PBXProject "changeScreenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9AED2218EFF5B7000B359B /* Debug */,
+				5E9AED2318EFF5B7000B359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9AED2418EFF5B7000B359B /* Build configuration list for PBXNativeTarget "MailTimerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9AED2518EFF5B7000B359B /* Debug */,
+				5E9AED2618EFF5B7000B359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E9AECF718EFF5B7000B359B /* Project object */;
+}

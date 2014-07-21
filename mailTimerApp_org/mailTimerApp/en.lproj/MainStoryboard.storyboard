@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mve-Bv-TyA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - MailView-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-Ud-zES">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8ZR-sq-pMu" kind="push" id="7D9-bz-k3p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="件名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpF-xx-N0w">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="件名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjg-WO-vVj">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WFe-Ri-tL4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CFL-lQ-Svx"/>
+                                </constraints>
+                                <color key="textColor" red="0.98431378602981567" green="0.99215692281723022" blue="0.98823535442352295" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fIu-4v-wbZ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="jvN-EH-r0L"/>
+                                </constraints>
+                                <color key="textColor" red="0.98431378599999997" green="0.99215692280000001" blue="0.98823535439999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7725490927696228" green="0.94509810209274292" blue="0.89411771297454834" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="cjg-WO-vVj" firstAttribute="top" secondItem="WFe-Ri-tL4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="34B-4O-rca"/>
+                            <constraint firstItem="P2u-Ud-zES" firstAttribute="top" secondItem="fIu-4v-wbZ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="738-Kj-oeE"/>
+                            <constraint firstItem="P2u-Ud-zES" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="129" id="Cgk-ir-xGX"/>
+                            <constraint firstItem="P2u-Ud-zES" firstAttribute="centerX" secondItem="fIu-4v-wbZ" secondAttribute="centerX" type="default" id="FWF-U0-lZV"/>
+                            <constraint firstItem="fIu-4v-wbZ" firstAttribute="trailing" secondItem="WFe-Ri-tL4" secondAttribute="trailing" type="default" id="G2c-zb-Gcl"/>
+                            <constraint firstItem="fIu-4v-wbZ" firstAttribute="top" secondItem="cjg-WO-vVj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Iby-rs-FqY"/>
+                            <constraint firstItem="WFe-Ri-tL4" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="UHh-TF-0Ex"/>
+                            <constraint firstItem="KpF-xx-N0w" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="f7d-ZR-lf6"/>
+                            <constraint firstItem="cjg-WO-vVj" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fWi-Hi-kZs"/>
+                            <constraint firstItem="WFe-Ri-tL4" firstAttribute="top" secondItem="3" secondAttribute="top" constant="41" id="r9Z-YN-S2v"/>
+                            <constraint firstItem="KpF-xx-N0w" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="rGb-Ya-nKK"/>
+                            <constraint firstItem="fIu-4v-wbZ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="uqz-Bk-xU5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MailView" id="yif-3J-uG9"/>
+                    <connections>
+                        <outlet property="BodyText" destination="fIu-4v-wbZ" id="kDj-c9-Q4x"/>
+                        <outlet property="TitleText" destination="WFe-Ri-tL4" id="5vC-le-pjB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="523" y="57"/>
+        </scene>
+        <!--Time View Controller - TimerView-->
+        <scene sceneID="eeg-2C-0kZ">
+            <objects>
+                <viewController id="8ZR-sq-pMu" customClass="TimeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XWB-ew-AKS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="RSj-i9-TPA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="8iG-Iw-y5c"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="420214476.44515502">
+                                    <!--2014-04-26 14:14:36 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="ja"/>
+                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                    <data key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</data>
+                                </timeZone>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJI-eH-Wl6">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="c3f-J7-p7P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selector:" destination="8ZR-sq-pMu" eventType="touchUpInside" id="J23-ee-Br4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RSj-i9-TPA" firstAttribute="centerX" secondItem="XWB-ew-AKS" secondAttribute="centerX" type="default" id="5nV-Ie-HKe"/>
+                            <constraint firstAttribute="bottom" secondItem="xJI-eH-Wl6" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="7Us-1X-wC3"/>
+                            <constraint firstItem="RSj-i9-TPA" firstAttribute="centerY" secondItem="XWB-ew-AKS" secondAttribute="centerY" type="default" id="B6n-Fx-ZKV"/>
+                            <constraint firstItem="xJI-eH-Wl6" firstAttribute="centerX" secondItem="RSj-i9-TPA" secondAttribute="centerX" type="default" id="Fb6-vg-9SO"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="TimerView" id="nWm-WX-Kvu"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="myDatePicker" destination="RSj-i9-TPA" id="1Av-Cq-wQG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdb-PE-9nP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054" y="57"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1fs-kL-Paw">
+            <objects>
+                <navigationController id="mve-Bv-TyA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Huh-dh-a0Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="mu5-3w-Cf2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m1C-Ui-QVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3" y="57"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TimeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="BackAction:"/>
+                <relationship kind="action" name="selector:"/>
+                <relationship kind="outlet" name="myDatePicker" candidateClass="UIDatePicker"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="BodyText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="TitleText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
